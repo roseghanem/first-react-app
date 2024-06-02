@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/first-react-app/static/css/main.82ebe40b.css",
+    "main.js": "/first-react-app/static/js/main.e52a389c.js",
+    "static/js/453.68693753.chunk.js": "/first-react-app/static/js/453.68693753.chunk.js",
+    "static/media/Rectangle82.png": "/first-react-app/static/media/Rectangle82.141e9b75c36a044420c3.png",
+    "static/media/Facebook.svg": "/first-react-app/static/media/Facebook.cf3cbaa5b27ae85d43e8ac3b2cfabf86.svg",
+    "static/media/Google.svg": "/first-react-app/static/media/Google.2d180948df45e474679e3f7fa173229d.svg",
+    "static/media/Apple.svg": "/first-react-app/static/media/Apple.7b919c36f6dd2e4c5d96021ef798568b.svg",
+    "index.html": "/first-react-app/index.html",
+    "main.82ebe40b.css.map": "/first-react-app/static/css/main.82ebe40b.css.map",
+    "main.e52a389c.js.map": "/first-react-app/static/js/main.e52a389c.js.map",
+    "453.68693753.chunk.js.map": "/first-react-app/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82ebe40b.css",
+    "static/js/main.e52a389c.js"
+  ]
+}
