@@ -1,0 +1,66 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    font-family: 'Noor';
+    /* src: url('C:/Users/IT/Downloads/fonts') format('truetype'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .hero-section {
+    background-image: url('../assets/svg/t.png');  
+    background-size: cover;
+    width: 1920;
+    height: 777;
+    background-position: center;
+    padding: 150px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    direction: rtl;
+    justify-content: right;
+    align-items: start;
+
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+  }
+
+/*
+.home-page {
+    font-family: 'Noor';
+    src: url('C:/Users/IT/Downloads/fonts') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/svg/Rectangle\ 82.png') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+    direction: rtl;
+  }
+
+.hero-section {
+    background-image: url('../assets/svg/Rectangle\ 82.png'); 
+    background-size: cover;
+    width: 1920;
+    height: 777;
+    background-position: center;
+    padding: 100px;
+  }
+  
+  .home-page h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+  }*/

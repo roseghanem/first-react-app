@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background: #f0f2f5;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4A00E0;
+}
+
+.cta-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.cta-buttons a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #4A00E0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-buttons a.start {
+    background-color: #4A00E0;
+    color: #fff;
+}
+
+.cta-buttons a.login {
+    color: #4A00E0;
+}
+
+.hero-section {
+    background: url('../assets/svg/amazing-aerial-shot-singapore-cityscape-with-lots-skyscrapers.svg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-section::after {
+    content: '';
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.hero-content .code-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hero-content .code-inputs input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d4ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-content .resend {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.footer-section {
+    background-color: #001f3f;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.footer-section p {
+    font-size: 24px;
+    font-weight: bold;
+}
